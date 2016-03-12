@@ -1,10 +1,4 @@
-﻿body{
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-right: 50px;
-}
-
-th{
+﻿th{
     cursor: pointer;
 }
 
@@ -24,4 +18,14 @@ th{
     border-right: 5px solid transparent;
     border-bottom: 10px solid white;
     display: inline-block;
+}
+
+input[type="text"]{
+    width: 30%;
+}
+
+@media screen and (max-width: 400px){
+    input[type="text"]{
+        width: 100%;
+    }
 }
