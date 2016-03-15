@@ -1,19 +1,17 @@
-﻿/// <reference path = "angular.min.js"> ///
-
-var employees = [
+﻿var employees = [
     { name: "Ben", dateOfBirth: new Date("November 23, 1980"), gender: "Male", salary: 55000.788 },
-    { name: "Sara", dateOfBirth: new Date("May 5, 1970"), gender: "Female", salary: 68000 },
-    { name: "Mark", dateOfBirth: new Date("August 15, 1974"), gender: "Male", salary: 57000 },
-    { name: "Pam", dateOfBirth: new Date("October 27, 1979"), gender: "Female", salary: 53000 },
-    { name: "Todd", dateOfBirth: new Date("December 30, 1983"), gender: "Male", salary: 60000 },
-    { name: "Huang", dateOfBirth: new Date("July 15, 1991"), gender: "Male", salary: 50000 },
+    { name: "Sara", dateOfBirth: new Date("May 5, 1970"), gender: "Female", salary: 68001.13 },
+    { name: "Mark", dateOfBirth: new Date("August 15, 1974"), gender: "Male", salary: 57060.73 },
+    { name: "Pam", dateOfBirth: new Date("October 27, 1979"), gender: "Female", salary: 91000.75 },
+    { name: "Todd", dateOfBirth: new Date("December 30, 1983"), gender: "Male", salary: 60500.15 },
+    { name: "Huang", dateOfBirth: new Date("July 15, 1991"), gender: "Male", salary: 52000.90 },
     { name: "Shan", dateOfBirth: new Date("September 11, 1992"), gender: "Male", salary: 80000 },
-    { name: "Huang", dateOfBirth: new Date("May 15, 1976"), gender: "Male", salary: 50000 },
-    { name: "Jay", dateOfBirth: new Date("June 11, 1981"), gender: "Male", salary: 89000 },
-    { name: "Harry", dateOfBirth: new Date("January 7, 1995"), gender: "Male", salary: 71000 },
-    { name: "Lucifer", dateOfBirth: new Date("March 5, 1987"), gender: "Male", salary: 41000 },
-    { name: "Tom", dateOfBirth: new Date("February 19, 1977"), gender: "Male", salary: 33000 },
-    { name: "John", dateOfBirth: new Date("October 17, 1969"), gender: "Male", salary: 57000 },
+    { name: "Henry", dateOfBirth: new Date("May 15, 1976"), gender: "Male", salary: 54060.85 },
+    { name: "Jay", dateOfBirth: new Date("June 11, 1981"), gender: "Male", salary: 89120.53 },
+    { name: "Hank", dateOfBirth: new Date("January 7, 1995"), gender: "Male", salary: 71000.54 },
+    { name: "Lucifer", dateOfBirth: new Date("March 5, 1987"), gender: "Male", salary: 41000.25 },
+    { name: "Tom", dateOfBirth: new Date("February 19, 1977"), gender: "Male", salary: 33050.47 },
+    { name: "John", dateOfBirth: new Date("October 17, 1969"), gender: "Male", salary: 57080.25 },
     { name: "Mike", dateOfBirth: new Date("July 30, 1979"), gender: "Male", salary: 59000 },
     { name: "Sally", dateOfBirth: new Date("September 15, 1988"), gender: "Female", salary: 75000 },
     { name: "Roy", dateOfBirth: new Date("August 21, 1990"), gender: "Male", salary: 90000 }
