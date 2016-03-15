@@ -58,7 +58,7 @@ myApp.controller("employeeController", ['$scope', 'filterFilter', function($scop
 
     $scope.getSortClass = function(column) {
         if ($scope.sortColumn == column) {
-            return $scope.reverseSort ? "arrow-down" : "arrow-up";
+            return $scope.reverseSort ? "arrow-up" : "arrow-down";
         }
         return "";
     }
@@ -74,10 +74,6 @@ myApp.controller("employeeController", ['$scope', 'filterFilter', function($scop
     
     // create empty search model (object) to trigger $watch on update
 	$scope.search = {};
-
-	$scope.resetFilters = function () {
-		$scope.search = {};
-	};
 
 	// pagination controls
 	$scope.currentPage = 1;
